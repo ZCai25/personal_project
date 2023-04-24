@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "msds697-redditanalysis-378601",
+  "private_key_id": "683fc52f9314594dac016a90952eb92957f64631",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDx5uYuJ6cW2qbi\nrjO0BSovYlTvvxOVuvrwk87JXi5VN9NLRF0PyUc/iyr0qX6SA8cu7HBP8I16cfcP\n6tl2pqCUUsnAN/sixR9IEJGajfjcQd52cgApSi3W4CwEwnQnjtbn001aIigIFKhx\nXZRmi/pfS7Qem7Hjag3BoQIONXwvHPGyvBGg3HHCEqa2qVdTqpT00gCyGbNnu0bt\nyou/GbjgN+kWV9ihTJX7b+QuHkLuzXMPj05lP9u2Nf14220bHhAlsRGTOC/QSgEw\negO8yW4c7ke1AVcgolbjjgcxvJ1y1fL/H0j/4bsNFvL33SL5XSJcriJk1O59tw7o\nSp0fQ8b1AgMBAAECggEAHcD13QV5kuEQF9+vclwURUHGCrso8IjQJtk3XSNddZPp\nRF/DRpbOUa2PegqDC/i0/juM0PhYno/4AJg1aVezdqr8L81y8WLnpxiKoEUIMCdV\n8qGxDWMXYk+uemNkoBz8qAUghY6f9+Z6lX8aKsba4+/O1tj1t3ArAv8H3rGLdcvP\nYWiFAPVBD1PupuBLAunuvqfPo6L1OzKwHBbQvgk5juESrAHyUb6kRr6ic1MgnF3Z\nDbx2JwdUV985VHdiBTOGPKA+VJKWzfdY47baP56Dh15t9fTnZXUgDYXdPv4yKGlv\nteNByUsNUTVNcaPUtOQwAf2OapNV9esd/POvN6CcfQKBgQD8fXkf3P638LnOqlcX\nX6ppN+Mia0gtc46NrAYZJMdc3h+Y8FISj0EH7DCbpD17hwXDQh2RZ7tnefj98yg7\nQ3Wl+2f7MGwqlNxQK776vJj08hljiWG+7chX3/tyIC5V4AqnX0/ssHuuOhQhSY+B\nTzAh/wS13FFA7kMkyzlc46nWTwKBgQD1Q78KfUKetbfM8GBKVNUF1Q0n6KtSoNAb\npljLPmJAT+G0LuUl5MqcBU9QmzsyEHaQV/zHEuAIKC5Z8lpJ/dhjC/EGOh4iXkMT\nuEwzkrIiyil71We4pMg6MKO9JsmpdqtoGcr9BOZdOhPJ7wx8MwYRy5btj6ryBa9N\n/WIqHpSBewKBgBLBLzIStEjtdJ/JP1bZIEtYf2KbHW1i2//h+0H63WQki6xMjYwb\nX/U6shGdjYOTb/Yk/xVB40W4ZapXWXGtfRurJPofiqlPDV5XIYR2ZdYr9X7TQZNx\nDiSY2pCLm2V9ks0D42ftZAJ5Be3DDQnJ3AVqb+siRlbQW+RrxAMGViM5AoGBAKUZ\nWXxiHXpgsL1QAkGHIW6voA+BW/JfNjemnpcSA2lvXGvCNZZwkMK+AEoudIaa9nTs\nBcisOArFoY4CyiyMqCDkZPbgIHDaKyUXJpSA51Dr7UjiutNceTxSiaZGefGNZIzK\n8A2qQrf25GNGe40Pe8J23b5Eu7n3ga5qJq5br3QJAoGALmxh41F8iYGWly8vFOic\nhjHooN7t2XXI+QEkmMQezorI0X+BPAE2lgLhqzC+GLvMkrMbp6ltGcLN30CrFmhO\nUvRt33sFRmOLhEP44ZdTMh0w0eIagmgjIn5Vx7thv50oatKv+XNOB85f9P9ls/wG\nh1L/tH0kZ2ywqj+50K4lDYg=\n-----END PRIVATE KEY-----\n",
+  "client_email": "msds697-reddit-service-acct@msds697-redditanalysis-378601.iam.gserviceaccount.com",
+  "client_id": "109707297701984369258",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/msds697-reddit-service-acct%40msds697-redditanalysis-378601.iam.gserviceaccount.com"
+}
