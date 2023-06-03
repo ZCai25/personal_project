@@ -1,0 +1,102 @@
+d100,Entry
+
+1,Calm winds and clear skies make for perfect flying conditions and an enjoyable flight.
+2,A light breeze blows across your flight path but doesn't affect your ability to stay aloft.
+3,Strong headwind makes flight more difficult and slower.
+4,An overcast sky of impermeable cloud cover limits your vision.
+5,Freezing Rain brings cold temperatures that chill you to bone. Extended flight in these wet conditions lead to ice accumulation on you or vessel. This increased weight make it more difficult to stay aloft.
+6,"Thunderstorms ahead: a large thunderhead looms in front of your path, the cloud racked with streaks of lightening."
+7,Thermals or rising bodies of air cause you to rise and fall erratically. A DC 15 check is needed to maintain control.
+8,"A strong wind to your back drives you forward, allowing you to travel further."
+9,A persistent fog blocks your view of the ground.
+10,A hurricane is visible on the horizon but you cannot determine the full size of this storm. Strong winds & rain clouds swirl around a calm center. Turbulence herald its approach.
+11,"A micro-burst is a localized column of sinking air (downdraft) within a thunderstorm and is usually less than or equal to 2.5 miles in diameter. Wind suddenly pushes you towards the ground. If flying at low altitude, a DC 15 check is needed to keep from crashing into the ground."
+12,"Your flight takes your through a light snow flurry, the snowflakes gently falling or carried by a faint breeze."
+13,"Your flight takes your through a moderate snowstorm, the snowflakes being driven by a biting wind."
+14,Your flight takes your through a heavy snowstorm. Driving snow and strong winds makes flight difficult and keeping warm even harder.
+15,Your flight takes your through a blizzard. The deluge of snow and driving winds leave makes travel in these whiteout conditions extremely difficult to potentially life threatening.
+16,A swarm of birds or small creatures approaching.
+17,Swarm of insects approaching.
+18,"Approaching dust storms begin to become thicker and thicker. Visibility reduced severely (I use a max of 20 ft, 40 ft if wearing eye protection), if severe dust storm: take 1d2 bludgeoning damage a round if not in cover for 10 rounds, then the damage switches to 1d4 for 10 rounds, then 1d6 for 10 rounds."
+19,"Reverse Thunderstorms are made of clouds of black that release black lightning that have no ordinary thunder crack. Instead the lightening is accompanied with a building high pitched whine and then complete silence as the lightning devours sound. Mutes all creatures during a lightning strike in 1 mile of thunder, non-magical sources of light that produce bright are now dim, dim is now darkness in proximity to storm."
+20,"Anti Thunderstorm generates large flashes of darkness that randomly plunge sections of the map into darkness, with high pitch screeches when lightning strikes. Blinds all creatures (via darkness) if near darkness when lightning strikes, leaves residual clouds of darkness on ground during strikes."
+21,"Hail begins to fall. Ranging from light, medium, heavy: Light: no damage, distracting: disadvantage on perception, insight and investigation rolls if not under cover. Medium: 1d2 bludgeoning damage every round not under cover, Distracting: same as above Heavy: 1d6 bludgeoning damage every round not under cover, Distracting: Same as above."
+22,"Volcanic Ash dusts the area like falling snow. The ash causes 1d4 poison damage every round if inhaled, if inhaled for 3 rounds in a row, suffer the poison condition for 1 hour. Add one hour for each round after 3. (8 rounds inhaled = 6 hours)"
+23,Updraft results in flying creatures being able to move 10ft more upwards and 10ft less downwards.
+24,It’s raining men.
+25,It’s raining cats and dogs.
+26,It’s raining fish.
+27,Plague of frogs rains down from above.
+28,Fire and brimstone falls from the sky.
+29,A pod of dolphins swims by and only then do you realize that you've already crashed into the ocean. Strangely you are able to continue flying as if you were still aloft.
+30,The air around you begins to acts like a mildly turbulent sea. A pod of cloud dolphins bound between the wispy clouds. They follow you playfully for a time.
+31,A thick purple to violet haze begins to roll in. Those within the purple haze (both mount and rider if they are not constructs) are under the effect of an indigo Prismatic Spray and must roll a save for each minute/hour that they remain within the haze or else become petrified. Airships and other vehicles begin to form a crust of stone on their surfaces and must be cleaned constantly to avoid becoming too heavy.
+32,"A pair of dragons are fighting, or it looks like they're fighting. You will need to dodge the crossfire. Various environmental effects can also impact you depending on the age and type of dragon."
+33,Hot Hale' falls around you as meteorites or volcanic rocks rain from the sky. Usually burn up before hitting the ground.
+34,"The top of the storm clouds give way to a large whirlpool-like vortex, the top of a tornado ravaging the group below. Strong swirling winds pull you ever closer..."
+35,Auroras provide a memorizing show of vibrant dancing colors against a clear sky.
+36,Glowing orbs of ball lightning fly through the air randomly. Occasional arcs of lightening lash out from the orb into it surroundings. Coming in contact with an orbs results in 3d6 electricity/lightening damage with a dexterity save for half.
+37,Cloud tunnels appear as clear vertical shafts of calm air surrounded by a spinning tunnel of spiraling air (appear like a sideways tornado or the time vortex on Doctor Who). A safe passage if you stay away from the sides but limits your route.
+38,"A Mana Storm comprised of magically charged clouds make flight unstable. For every hour of flight by magical means, roll a d20. If the result is 3 or less, the spell fails, returning in 1 hour. If the result is 18 or greater, the spell is boosted, and the flying speed doubles for the rest of the hour. Captains of magical airships will not fly in a mana storm, and a wise mage will have Feather Fall prepared."
+39,A magical vacuum develops within your vicinity leaving you and anything else in the area in free fall and without any means to breathe.
+40,Your flight takes your through a light rain shower carried by a gentle breeze.
+41,Your flight takes your through a moderate rain shower.
+42,Your flight takes your through a heavy rain shower. Heavy squalls of rain fall as curtains in between bouts of lighter rain.
+43,Your flight takes your through a torrential downpour. Driving winds and nearly zero visibility put any flights at risk of being carried off course.
+44,A rain shower that has minor healing properties. Living creatures exposed feel invigorated as exhaustion and injuries are healed.
+45,"A gravitational anomaly occurs, leaving gravity's direction and strength is fluctuating. Roll a d4 to determine if: 1) gravity's effects disappear and you are left weightless and floating; 2) gravity is present but weakened; 3) gravity has increased slightly; 4) gravity has increase substantially. Roll a 1d10 to determine the direction of gravity, in a clockwise manner (1 in north, 2 northeast, etc.) with 9 and 10 representing up and down."
+46,Precipitation that causes any material or creature that it touches to begin to age and deteriorate at an increased pace. This light shower/flurry causes unprotected creatures and objects to age a year per hour of travel.
+47,Moderate rainfall that causes any material or creature that it touches to begin to age and deteriorate at an increased pace. Unprotected creatures and objects to age 1d10 years per hour of travel.
+48,A rain or snow that causes any material or creature that it touches to begin to age and deteriorate at an increased pace. Unprotected creatures and objects to age 1d10 years per minute of travel.
+49,A torrential downpour that causes any material or creature that it touches to begin to age and deteriorate at an increased pace. Unprotected creatures and objects to age 1d10 years per round of exposure.
+50,"From the clouds a series of earth-motes appear like floating bergs of debris. Slow and deliberate travel is needed with the earth-mote field to avoid a collision, but the more adventurous (or foolhardy) can try their skill and luck and attempt navigating the field at a faster pace."
+51,"Cobble to boulder sized clasts of stone fall from above (be it from earthen-motes, planar portals, or other magical means). Evasive maneuvers are needed to avoid being struck."
+52,Crosswinds begin to blow you off course. You gain 10ft of movement to the left of right but you lose 10ft of movement in the opposite direction.
+53,"Barometric flux leads to rapid pressure change that leaves your ears popping. Severe changes in pressure may leave living creatures with bloody noses, headaches, or other minor inconveniences."
+54,The air is becoming thinner and thinner leaving living creatures short of breathe. Extended time at this altitude will leave living creatures exhausted.
+55,As you traverse you come across a sideways vortex of swirling clouds that acts as a wormhole. Distances mean little when passing through these abnormalities. Those passing through may be shunted to new locations far from where they began or find their journeys drastically shortened/lengthened. The passage of time within and without the vortex tend to differ. A simple 5 minute flight may have actually taken 5 days.
+56,A blood rain falls as a torrential downpour sending crew and other intelligent creatures fearfully seeking shelter. Often seen as a true sign of ill omen from the gods.
+57,Declining temperature has resulted in water condensing on you and your equipment. Extended flight results in you becoming soaked in water.
+58,Funnel clouds extends from dark grey to green clouds like probing tentacles reaching for the ground. Continued development of the storm can lead to the formation of a tornado. Strong turbulent winds make flying difficult.
+59,The air is thick and musty with high humidity. Each breathe feels labored with moisture while sweat perpetually falls down your face.
+60,Dense clouds form impenetrable obstacles due to their firm but squishy consistency. Collision does little to no damage to you or your equipment but you may bounce off or become beached.
+61,"Gale force winds appear quickly, making continued flight inadvisable."
+62,You are flying through the aftermath of a rain shower/thunderstorm. The light to moderate breeze is humid but cool. One or more rainbows/moon-bows can be seen behind the weather front.
+63,"You enter into a pocket or layer of various gases that may or may not be breathable. Open flames begin to burn strange colors (e.g. green, blue, purple, etc.) within these bodies of air."
+64,A bright sun beats down on you from above. No noticeable breeze is present to provide relief.
+65,The sky is partly cloudy. Individuals clouds rove across the otherwise sunny/moonlit sky.
+66,"The veil between the planes thins as an aurora dances across crystal the night sky. Fliers may accidentally, or intentionally, pass through the aurora into other planes as if they were passing through a colored pool within the Astral Plane.."
+67,"Thin golden clouds cover anything passing through the area. These clouds are composed of swirling flurries of a highly reflective glitter-like materials. Creatures entering these areas become blinded and, if invisible, are outlined. The highly reflective nature of the ""glitter"" make stealth excessively difficult."
+68,"Thin gossamer strands of webbing float through the air, sticking to anything solid that it comes in contact with. This webbing builds up over time unless removed (either through rigorous cleaning, dissolution, burning, etc.) leading to creatures and mechanisms becoming restrained as per the web spell."
+69,Clouds of condensing ethanol vapors cause creatures passing through or nearby to quickly become drunk. These clouds are also highly flammable..
+70,The diminishing winds carry a sense of calm regardless of their severity. One or more energy types (from both mundane and magical sources) are quelled. Damage from selected energy types are reduced by 10 points for the duration of this effect.
+71,Your flight takes your through a rainfall that falls upwards against gravity. All other objects and entities are still affected by regular gravity.
+72,The rapidly rising clouds are composed of churning wisps of super heated steam and boiling water. Caution must be taken to prevent severe scalding burns.
+73,"Banks of clouds and fog have a dispelling effect against spells, spell-like abilities, and magic items."
+74,The weather in the area quickly and often randomly transitions between the different seasons.
+75,Your flight takes you through a light shower of corrosive rain. Unprotected creatures and objects take 1d6 acid damage every hour they remain exposed.
+76,Your flight takes you through a moderate shower of corrosive rain. Unprotected creatures and objects take 1d6 acid damage every 10 minutes they remain exposed.
+77,Your flight takes you through a heavy shower of corrosive rain. Unprotected creatures and objects take 1d6 acid damage every minute they remain exposed.
+78,Your flight takes you through torrential downpour of corrosive rain. Unprotected creatures and objects take 1d6 acid damage every round they remain exposed.
+79,"An oily precipitation falls from the sky, coating surfaces in a slick. All unprotected surfaces, creatures, and/or items are coated in this substance and count as having the grease spell being applied to them."
+80,Copper coins fall from the sky like hail.
+81,The air feels thick and resists fast movements. Flying creatures are slowed down due to the increased resistance whereas non-flying creatures gain a fly speed since they may now swim through the air.
+82,A light fog covers the ground but it dissipates throughout the morning hours.
+83,The night sky takes on an almost ethereal clarity as the stars shine down from above. Those traveling at high altitudes will find the barrier between the mundane and astral planes are thin. Flight becomes more a concept of thought rather than physical action..
+84,"Elemental tempests appear on the horizon as a severe storm. The storm is a chaotic and unstable torrent of the elements (fire, water/cold, acid, sonic/thunder, electricity/lightening, etc.) in an ever alternating states of matter. For every round of travel within the tempest roll a d6 to determine the energy type of the storm with a six indicating two energy types."
+85,"A dry thunderstorm wracks the sky with lightening and turbulent winds, however, no rain falls."
+86,You enter into a pocket or layer of of bad air. Open flames begin to burn weaker or are snuffed within these bodies of air due to the lack of oxygen. Creatures that require breathable air must make a DC 15 (+1 for each hour in the bad air) Fortitude/Constitution save for each hour of travel or become fatigued/exhausted as they slowly asphyxiate from the lack of oxygen.
+87,Scintillating Fog covers the ground below. This fog takes on a myriad of shifting colors but otherwise does not provide further effects.
+88,"A fell bank of clouds and/or fog chills all creatures to the bone while barely audible whispers provide a sense of unease. Any dead creatures within this cloud reanimate as a zombie, as per the animate dead spell, and begin to attack the nearest living creature. The reanimation wanes quickly once the zombies are removed from the cloud/fog."
+89,"You enter into a pocket or layer of of rejuvenating air imbued with positive/radiant energies. Creatures that require breathable air take longer to become fatigued/exhausted and recover from injuries faster. Undead, however, must make a Fortitude/Constitution save for each hour of travel or gain a level of fatigue/exhaustion."
+90,"The clouds form the vague shapes of legendary creatures and humanoids (dragons, giants, chimera, ancient heroes, etc.). The nature of these clouds is variable, some float peacefully on the winds, bold formations perform tricks and daring maneuvers, while others collide with one another in replication of battles long forgotten. These cloud formations generally do little to hinder flight, outside of providing a pleasant distraction."
+91,Thundersnow blankets the area in a driving snowfall that is illuminated by periodic flashes of lightening.
+92,Hallucinatory weather masks the true conditions around you. Roll on this table twice. The first option is the actual weather condition that is occurring with the second result being what creatures experience.
+93,"Sepia Storm and Venusian Rain are phenomena that drains color from the world under its melancholic clouds. These rains literally wash the color off anything exposed leaving entire landscapes in muted tones of sepia, grayscale, or white.."
+94,Howling winds not typically seen outside of Pandemonium itself tear through the airspace carrying all vocalizations it passes in its zephyr. Creatures without hearing protection generally run the risk of temporary to permanent deafness from the cacophony.
+95,The waters of the river Styx begin to fall as rain or snow causing any caught unprotected to be under the effects of the feeblemind spell.
+96,"Demon ichor falls as a thick putrid rain that causes demonic mutations in any exposed creatures, except constructs."
+97,Atmospheric instability wracks the area resulting in rapidly shifting conditions. Roll on this d100 table for a given 1d10 round/minute interval of travel.
+98,Hag hail falls as grotesque amalgam of dirty ice that carries a fragment of malign purpose to bestow misery onto others. Those struck by the hail are at risk of contracting a minor curse that lasts until removed by magic or until the power driving the curse dissipates over the course of hours to days.
+99,Select 1d4 conditions to occur simultaneously.
+100,Strong gusts of wind make traveling by air a dangerous idea!

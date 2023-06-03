@@ -1,9 +1,9 @@
 import os
 import pandas as pd
 import praw
-
-
-from google.cloud import storage
+# from google.cloud import storage
+import boto3
+from io import StringIO
 
 from user_definition import *
 
@@ -113,16 +113,27 @@ def get_comments_and_features(reddit, post_limit, timeframe='day', one_sub=False
         return pd.DataFrame(table, columns = ['post_id', 'comment_id', 'comment_text',
                                               'subreddit', 'creation_datetime', 'comment_karma'])
 
-def write_csv_to_gcs(bucket_name, blob_name, service_account_key_file, df):
-    '''
-    Write and read a blob from GCS using file-like IO.
-    Writes the dataframe (df) as a CSV file.
-    '''
-    storage_client = storage.Client.from_service_account_json(service_account_key_file)
-    bucket = storage_client.bucket(bucket_name)
-    blob = bucket.blob(blob_name)
+# def write_csv_to_gcs(bucket_name, blob_name, service_account_key_file, df):
+#     '''
+#     Write and read a blob from GCS using file-like IO.
+#     Writes the dataframe (df) as a CSV file.
+#     '''
+#     storage_client = storage.Client.from_service_account_json(service_account_key_file)
+#     bucket = storage_client.bucket(bucket_name)
+#     blob = bucket.blob(blob_name)
     
-    with blob.open('w') as f:
-        df.to_csv(f, index=False)
+#     with blob.open('w') as f:
+#         df.to_csv(f, index=False)
         
+
+def write_csv_to_s3(bucket_name, object_name, aws_access_key_id, aws_secret_access_key, df):
+    '''
+    Write a dataframe (df) as a CSV file to S3 bucket.
+    '''
+    s3 = boto3.resource('s3',
+                        aws_access_key_id=aws_access_key_id,
+                        aws_secret_access_key=aws_secret_access_key)
+    csv_buffer = StringIO()
+    df.to_csv(csv_buffer, index=False)
+    s3.Object(bucket_name, object_name).put(Body=csv_buffer.getvalue())
 
