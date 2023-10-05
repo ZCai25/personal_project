@@ -1,4 +1,4 @@
-## List of personal and group projects in data science and data engineering
+## 🧐 List of Projects <a name = "about"></a>
 - Data Science
     - Machine learning
         - Feature importance
