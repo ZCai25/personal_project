@@ -43,3 +43,57 @@ Once the automated portion of the pipeline was established, we imported the data
 using an Apache Spark and MongoDB connector to import it from MongoDB Atlas. Here we have
 reached the final stage of the pipeline, where we cleaned the data wherever necessary and
 processed it to be input into our Word2Vec model.
+
+## Preprocessing Goals, Algorithms, Time Efficiency
+Using PySpark DataFrames, Spark ML, and Databricks, we preprocessed our data to be input into
+the Word2Vec model. We began by tokenizing all the posts and comments using the Tokenizer
+function in Spark ML, which splits all of the text into individual words, removes the punctuation of
+certain words (such as “won’t” and “can’t”), and makes them all lowercase to make it easier to
+process. This was followed by filtering the words using Spark ML’s StopWordsRemover to remove
+common, unimportant words such as “and”, “you”, and “but” in order to make our analysis more
+meaningful. This allowed us to focus on the keywords we needed to cluster our topics.
+Once the words were all tokenized and stop words were removed, the data was ready to be input
+into Spark ML’s Word2Vec model. Word2Vec receives all of the words in the corpus, or in our case,
+the posts, and vectorizes each word in a specified dimension. We went with the default vector
+length of 100 values in our case. Using these vectors, we input them all into Spark ML’s KMeans
+algorithm with a selected K = 15, which we chose using the elbow method. This allowed us to
+group the data into 15 separate clusters. Finally, we pushed the clusters individually through the
+WordCloud library to generate a visual cluster of the most common words in that cluster. This
+gave us a better sense of the most common topics in the posts.
+This entire process took 724.52 seconds, or roughly 12 minutes, for the posts. The longest portion
+of the report involved implementing the elbow method to select an ideal value for K when using
+the KMeans algorithm, as this alone took 10 minutes.
+For comments, we primarily pushed the comment text through Natural Language Toolkit’s (NLTK)
+SentimentIntensityAnalyzer model to obtain their “compound” scores. These compound scores
+represent a comment's overall predicted sentiment and range between -1 and 1, where -1
+represents negative comments, and 1 represents positive comments. We used this value to group
+the comments into negative, neutral, and positive categories. This process took about 44.8
+seconds, with the longest portion attributed to NLTK’s SentimentIntensityAnalyzer model.
+Cluster specification details:
+● Databricks Runtime version: 12.1 ML (includes Apache Spark 3.3.1, GPU, Scala 2.12)  
+● Worker types: 32-80 GB Memory, 8-20 Cores  
+● Number of workers: 2-5  
+● Driver type: 16 GB Memory, 4 Cores  
+
+## ML Goals, Outcomes, Execution Time Efficiency
+The main outcomes of this project were to collect, preprocess and engineer features using Spacy,
+cluster topics and stories by similarity across various subreddits, build a word cloud using
+topic-segregated data, and conduct sentiment analysis of the topics, organize them into positive
+negative, and controversial lists. These objectives serve as the foundation for the ML goals and
+outcomes of the report. Data collection, preprocessing, and feature engineering are critical in
+preparing the dataset for analysis, while clustering enables the identification of patterns and
+relationships between subreddits. The word cloud visualizes the most common words within each
+topic, and sentiment analysis allows for a better understanding of the emotions and opinions
+expressed in each subreddit. Overall, this report's ML goals and outcomes aim to provide insights
+into the topics, sentiments, and relationships between subreddits to help make informed
+decisions.  
+
+Conclusion
+In this project, we were able to construct an Apache Airflow pipeline extracting Reddit posts and
+comments from the Reddit API and moving them into Google Cloud Storage and MongoDB Atlas,
+using Databricks and Spark ML to extract the data and complete our machine learning objectives.
+As for our objectives, we were able to cluster and identify key topics and phrases that are trending
+in the news daily during the time that data was collected for 11 subreddits of our choosing,
+reflecting politics, environment, the economy, global health, global news, local news, and more. We
+were also able to identify the sentiments surrounding the news we captured to observe the
+atmosphere of the news’ impact and the general sentiment of Reddit users.  
