@@ -6,13 +6,13 @@ useful information. The project will produce word clouds and sentiment analysis,
 understand the sentiment of the news.
 
 ## Dataset
-Data source: Reddit API https://www.reddit.com/dev/api
+Data source: Reddit API https://www.reddit.com/dev/api  
 ● Size of dataset: 113,000 comments in 12 files (1 MB each), 1,100 posts in 12 files (50 KB
-each)
-● Data format: .csv files in GCP, JSON in MongoDB
-● Data types: String, DateTime, integer
-● Missing values: None
-● Time range: 2/25/23 - 3/8/23
+each)  
+● Data format: .csv files in GCP, JSON in MongoDB  
+● Data types: String, DateTime, integer  
+● Missing values: None  
+● Time range: 2/25/23 - 3/8/23  
 
 ## Analytic Goals
 With the posts data set, the goal was to cluster posts by topics and analyze the sentiment of the
