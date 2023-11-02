@@ -3,7 +3,7 @@
     - Machine learning
         - Feature importance
         - Clustering methods
-        - Random Forest model on Non-profit demographic data (blog post link https://blog.candid.org/post/who-is-sharing-nonprofit-demographic-data-with-candid/)
+        - Random Forest model on Non-profit demographic data <br> (blog post link https://blog.candid.org/post/who-is-sharing-nonprofit-demographic-data-with-candid/)
 - Data Engineering
     - Reddit sentiment analysis pipeline
         - The project aims to develop an automated scalable machine-learning pipeline to perform
