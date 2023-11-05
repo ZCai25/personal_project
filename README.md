@@ -6,4 +6,4 @@
         - Random Forest model on Non-profit demographic data [blog post](https://blog.candid.org/post/who-is-sharing-nonprofit-demographic-data-with-candid/)
 - Data Engineering
     - [Reddit sentiment analysis pipeline](https://github.com/ZCai25/personal_project/tree/main/data_engineer/reddit_pipeline)
-    - Startup project pipeline
+    - [Startup project pipeline](https://github.com/ZCai25/personal_project/tree/main/data_engineer/startup)
